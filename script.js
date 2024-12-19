@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Billie Jean - Michael Jackson', 'Get On The Floor - Jennifer Lopez Ft Pitbull', 'Harleys In Hawaii - Katy Perry', 'Middle Of The Night', 'Shape Of You'];
+const songs = ['Billie_Jean_Michael_Jackson', 'Get_On_The_Floor_Jennifer_Lopez_Ft_Pitbull', 'Harleys_In_Hawaii_Katy_Perry', 'Middle_Of_The_Night', 'Shape_Of_You'];
 
 // Keep track of song
 let songIndex = 0;
