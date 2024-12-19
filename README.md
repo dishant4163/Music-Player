@@ -1,4 +1,4 @@
-# Music Player 🎵 [](https://dishant4163.github.io/Music-Player/)
+# Music Player 🎵 
 
 A simple and interactive music player web application that lets users play, pause, and skip through songs. The app supports dynamic song selection and includes features like song duration, progress bar, and cover art for each track.
 
