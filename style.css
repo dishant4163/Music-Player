@@ -1,42 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  background: rgb(0,212,255);
+  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 82%, rgba(2,0,36,1) 100%);
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Lobster';
-  font-size: 30px;
-  color: white;
-  text-shadow: 0 0 10px white, 0 0 40px  #ff00de;
+  font-family: 'Lato', sans-serif;
   margin: 0;
-  background: linear-gradient(-45deg, black, #000066, #660066,#23a6d5);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+h1 {
+  color: greenyellow;
 }
 
 .music-container {
-  background-color:  #1a000d;
+  background-color:  #002244;
   border-radius: 15px;
-  box-shadow: 0 0 7px white, 0 0 30px #0074e3;
+  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -96,7 +83,7 @@ body {
 }
 
 .action-btn {
-  background-color:  #1a000d;
+  background-color:  #002244;
   border: 0;
   color: #dfdbdf;
   font-size: 20px;
@@ -115,15 +102,10 @@ body {
 }
 
 .music-info {
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 7px white, 0 0 30px #0074e3;
-  font-family: 'Lato', cursive;
-  color: black;
-  text-shadow: none;
-  font-size: 17px;
+  background-color: rgb(229, 228, 226, 0.7);
   border-radius: 15px 15px 0 0;
   position: absolute;
-  top: -1px;
+  top: 0;
   left: 20px;
   width: calc(100% - 40px);
   padding: 10px 10px 10px 150px;
