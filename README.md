@@ -2,6 +2,7 @@
 
 A simple and interactive music player web application that lets users play, pause, and skip through songs. The app supports dynamic song selection and includes features like song duration, progress bar, and cover art for each track.
 
+
 ## Features
 
 - **Play, Pause, Next, Previous**: Control playback of songs with easy navigation buttons.
@@ -11,11 +12,13 @@ A simple and interactive music player web application that lets users play, paus
 - **Multiple Songs**: Add as many songs as you want, and easily navigate through them.
 - **Responsive Design**: The app adjusts to different screen sizes and devices.
 
+
 ## Files Overview
 
 - **index.html**: Contains the structure of the music player interface, including audio player, title, buttons, and cover image.
 - **styles.css**: Provides the styling and layout for the app, with animations, background gradients, and responsive design.
 - **script.js**: Handles the logic for playing, pausing, switching songs, updating progress, and managing song duration.
+
 
 ## How to Use
 
@@ -34,6 +37,7 @@ A simple and interactive music player web application that lets users play, paus
 
 5. **Song Duration**:
    - The app displays both the current song's time and its total duration in minutes and seconds.
+
 
 ## Files Description
 
@@ -61,6 +65,7 @@ The `script.js` file contains the app's main functionality:
 - Switches between songs in the playlist when the "Next" or "Previous" buttons are clicked.
 - Ensures smooth song transitions when a song ends.
 
+
 ## How to Run
 
 1. **Download or Clone the Repository**:
@@ -73,15 +78,18 @@ The `script.js` file contains the app's main functionality:
    - Add songs to the `music/` directory and their corresponding images to the `images/` directory.
    - Update the song list in the `script.js` file.
 
+
 ## Technologies Used
 
 - **HTML**: Used for the structure of the music player.
 - **CSS**: Provides the styling, layout, and animations for the music player.
 - **JavaScript**: Handles the logic for song playback, controls, and dynamic updates.
 
+
 ## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 ## Acknowledgments
 
