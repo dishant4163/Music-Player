@@ -102,10 +102,15 @@ h1 {
 }
 
 .music-info {
-  background-color: rgb(229, 228, 226, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 7px white, 0 0 30px #0074e3;
+  font-family: 'Lato', cursive;
+  color: black;
+  text-shadow: none;
+  font-size: 17px;
   border-radius: 15px 15px 0 0;
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 20px;
   width: calc(100% - 40px);
   padding: 10px 10px 10px 150px;
